@@ -1,0 +1,173 @@
+/* FORMATO DE LA PAGINA*/ 
+
+* {
+    text-decoration: none;
+}
+
+body {
+	background-image: url(IMG/bisco.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+header{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 50px;
+	text-align: center;
+	background-color: #aaaba5;
+	display: flex;
+	box-shadow: 5px 5px 15px 0px black;
+}
+
+footer{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	background-color: #aaaba5;
+	box-shadow: 5px 5px 15px 0px black;
+}
+
+/* FORMATO DE LA PAGINA */
+
+
+/* BOTONES */
+
+.contenedor{
+	width: 1288px;
+	margin: auto;
+	padding: 50px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.contenedor-botones{
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 40px;
+}
+.boton{
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 90%;
+	height: 70px;
+	background: #4d4461;
+	color: #fff;
+	font-family: 'Roboto' , sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	transition: .3s ease all;
+	border-radius: 15px;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 5px 5px 15px 0px black;
+}
+
+.boton span{
+	position: ralative;
+	z-index: 200;
+	transition: .3s ease all;
+}
+
+.boton.uno::after{
+	content: "";
+	width: 100%;
+	height: 100%;
+	background: #681b1b;
+	position: absolute;
+	z-index: 100;
+	top: -100px;
+	left: 0;
+	transition: .5s ease-in-out all;
+}
+
+.boton.uno:hover::after {
+	top: 0;
+}
+
+.boton.dos::after{
+	content: "";
+	width: 100%;
+	height: 100%;
+	background: #681b1b;
+	position: absolute;
+	z-index: 100;
+	top: -100px;
+	left: 0;
+	transition: .5s ease-in-out all;
+}
+
+.boton.dos:hover::after {
+	top: 0;
+}
+.boton.tres::after{
+	content: "";
+	width: 100%;
+	height: 100%;
+	background: #681b1b;
+	position: absolute;
+	z-index: 100;
+	top: -100px;
+	left: 0;
+	transition: .5s ease-in-out all;
+}
+
+.boton.tres:hover::after {
+	top: 0;
+}
+
+/* BOTONES */
+
+
+/* ELEMENTOS */
+
+.name{
+	padding-left: 15px;
+	color: #000000;
+}
+
+.navButton { 
+    color: #c5c8b7;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    width: 200px;
+    height:200px;
+}
+
+.mainDiv{
+	text-align: center;
+	display: block;
+	font-size: 35px;
+	font-family:'Times New Roman', Times, serif; 
+	font-weight: 1500;
+	padding: 40px;
+	margin: 40px;
+	background-color: #831d1d;
+	color: #c5c8b7;
+	box-shadow: 5px 5px 15px 0px black;
+}
+
+.mainImg {
+	width: 450px;
+	height: 450px;
+}
+.headerImg{
+	padding-top: 58px;
+	padding-left: 10px;
+	width:100px;
+	height:100px;
+}
+
+.mainTitle{
+	
+}
+
+
+/* ELEMENTOS */
