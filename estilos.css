@@ -23,8 +23,9 @@ footer{
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	background-color: #aaaba5;
 	box-shadow: 5px 5px 15px 0px black;
+	height: 80px;
+	text-align: center;
 }
-
 /* FORMATO DE LA PAGINA */
 
 
@@ -165,8 +166,8 @@ img {
 	height:100px;
 }
 
-.mainTitle{
-	
+.footerText{
+	padding-top:25px;
 }
 
 
