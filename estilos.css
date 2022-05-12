@@ -4,10 +4,12 @@
     text-decoration: none;
 }
 
-
+.disclaimer {
+	display: none;
+}
 
 body {
-	background-image: url(IMG/bisco.png);
+	background-image: url(img/bisco.png);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -276,3 +278,22 @@ img {
 
 
 /* EUROPA.HMTL */
+
+/* FOOTER LINKS */
+
+.nameAlt{	
+padding-left: 15px;
+color: #000000;
+text-decoration: none;
+}
+
+.headerAlt{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 50px;
+	text-align: center;
+	background-color: #831d1d;
+	display: flex;
+	box-shadow: 5px 5px 15px 0px black;
+}
+
+/* FOOTER LINKS */
