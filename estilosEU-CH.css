@@ -1,0 +1,103 @@
+/* FORMATO DE LA PAGINA*/ 
+
+* {
+    text-decoration: none;
+}
+
+.disclaimer {
+	display: none;
+}
+
+body {
+	background-image: url(img/bisco.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+header{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 50px;
+	text-align: center;
+	background-color: #aaaba5;
+	display: flex;
+	box-shadow: 5px 5px 15px 0px black;
+}
+
+footer{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	background-color: #aaaba5;
+	box-shadow: 5px 5px 15px 0px black;
+	height: 80px;
+	text-align: center;
+}
+
+.ancla-Ch:hover {
+	color: black; 
+	text-decoration: none 
+}
+
+.ancla-Ch:visited {
+	color: black;
+	text-decoration: none 
+}
+
+
+/* FORMATO DE LA PAGINA */
+
+
+.mainDiv-Ch {
+	text-align: center;
+	display: block;
+	font-size: 15px;
+	font-family:'Times New Roman', Times, serif; 
+	padding: 40px;
+	margin: 40px;
+	background-color: #831d1d;
+	color: #c5c8b7;
+	box-shadow: 5px 5px 15px 0px black;
+}
+
+.mainTitle-Ch {
+	text-align: center;
+	display: block;
+	font-size: 30px;
+	font-family:'Times New Roman', Times, serif; 
+	padding: 20px;
+	margin: 20px;
+	background-color: #831d1d;
+	color: #fff;
+	box-shadow: 5px 5px 15px 0px black;
+}
+
+.divEquipos-Ch{
+	display: block;
+	font-size: 20px;
+	font-family:'Times New Roman', Times, serif; 
+	padding: 20px;
+	margin: 20px;
+	background-color: #c5c8b7;
+	color: #831d1d;
+	box-shadow: 5px 5px 15px 0px black;
+}
+
+.pTitulos-Ch{
+	color: #000000;
+	font-size: 15px;
+}
+
+.headerImg-Ch{
+	padding-top: 58px;
+	padding-left: 10px;
+	width:100px;
+	height:100px;
+}
+
+.footerText-Ch{
+	padding-top:7px;
+}
+
+.img-Ch{
+    width: 200px;
+    height: 200px;
+}

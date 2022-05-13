@@ -141,7 +141,7 @@ footer{
 /* BOTONES */
 
 
-/* ELEMENTOS */
+/* INDEX */
 
 .name{
 	padding-left: 15px;
@@ -188,112 +188,7 @@ img {
 	padding-top:7px;
 }
 
-
-/* ELEMENTOS */
-
-/* CHAMPIONS.HMTL */
-
-.mainDivChampions {
-	text-align: center;
-	display: block;
-	font-size: 15px;
-	font-family:'Times New Roman', Times, serif; 
-	padding: 40px;
-	margin: 40px;
-	background-color: #831d1d;
-	color: #c5c8b7;
-	box-shadow: 5px 5px 15px 0px black;
-}
-
-.mainTitleChampions {
-	text-align: center;
-	display: block;
-	font-size: 30px;
-	font-family:'Times New Roman', Times, serif; 
-	padding: 20px;
-	margin: 20px;
-	background-color: #831d1d;
-	color: #fff;
-	box-shadow: 5px 5px 15px 0px black;
-}
-
-.equipoChampions{
-	display: block;
-	font-size: 20px;
-	font-family:'Times New Roman', Times, serif; 
-	padding: 20px;
-	margin: 20px;
-	background-color: #c5c8b7;
-	color: #831d1d;
-	box-shadow: 5px 5px 15px 0px black;
-}
-
-.titleChampions{
-	color: #000000;
-	font-size: 15px;
-}
-/* CHAMPIONS.HMTL */
-
-/* EUROPA.HMTL */
-
-.mainDivEuropa {
-	text-align: center;
-	display: block;
-	font-size: 15px;
-	font-family:'Times New Roman', Times, serif; 
-	padding: 40px;
-	margin: 40px;
-	background-color: #831d1d;
-	color: #c5c8b7;
-	box-shadow: 5px 5px 15px 0px black;
-}
-
-.mainTitleEuropa {
-	text-align: center;
-	display: block;
-	font-size: 30px;
-	font-family:'Times New Roman', Times, serif; 
-	padding: 20px;
-	margin: 20px;
-	background-color: #831d1d;
-	color: #fff;
-	box-shadow: 5px 5px 15px 0px black;
-}
-
-.equipoEuropa{
-	display: block;
-	font-size: 20px;
-	font-family:'Times New Roman', Times, serif; 
-	padding: 20px;
-	margin: 20px;
-	background-color: #c5c8b7;
-	color: #831d1d;
-	box-shadow: 5px 5px 15px 0px black;
-}
-
-.titleEuropa{
-	color: #000000;
-	font-size: 15px;
-}
+/* INDEX */
 
 
-/* EUROPA.HMTL */
 
-/* FOOTER LINKS */
-
-.nameAlt{	
-padding-left: 15px;
-color: #000000;
-text-decoration: none;
-}
-
-.headerAlt{
-	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	font-size: 50px;
-	text-align: center;
-	background-color: #831d1d;
-	display: flex;
-	box-shadow: 5px 5px 15px 0px black;
-}
-
-/* FOOTER LINKS */
